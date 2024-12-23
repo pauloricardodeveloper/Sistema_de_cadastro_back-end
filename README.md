@@ -1,21 +1,20 @@
 # Sistema de Cadastro de Usuários | Back-end
 
-Este projeto é uma aplicação completa de cadastro de usuários com autenticação. Usuários podem se registrar, fazer login e acessar uma área privada com listagem de dados. O back-end foi desenvolvido com Node.js e MongoDB, e o front-end com React e Tailwind CSS.
+Este projeto é uma aplicação completa de cadastro de usuários com autenticação. Usuários podem se registrar, fazer login e acessar uma área privada com listagem de dados.
 
 ## Tabela de Conteúdos
 
 - [Sobre o Projeto](#sobre-o-projeto)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Tecnologia Utilizada](#tecnologia-utilizada)
 - [Funcionalidades](#funcionalidades)
 - [Instalação e Uso](#instalação-e-uso)
-- [Estrutura de Pastas](#estrutura-de-pastas)
 - [Endpoints da API](#endpoints-da-api)
 
 ## Sobre o Projeto
 
 O **Sistema de Cadastro de Usuários** permite que usuários se registrem, façam login e acessem uma área privada com listagem de dados. O sistema utiliza autenticação JWT para segurança, protegendo o acesso a páginas restritas.
 
-## Tecnologias Utilizadas
+## Tecnologia Utilizada
 
 ### Back-end
 
@@ -27,12 +26,6 @@ O **Sistema de Cadastro de Usuários** permite que usuários se registrem, faça
 - **Bcrypt**: Criptografia para senhas.
 - **Cors**: Configuração de CORS para controle de acesso.
 
-### Front-end
-
-- **React**: Biblioteca para construção de interfaces de usuário.
-- **Tailwind CSS**: Biblioteca de estilos para design responsivo.
-- **Axios**: Cliente HTTP para consumo da API.
-
 ## Funcionalidades
 
 ### Back-end
@@ -40,12 +33,6 @@ O **Sistema de Cadastro de Usuários** permite que usuários se registrem, faça
 - **Cadastro de Usuário**: Registro de novos usuários no sistema com criptografia de senha.
 - **Autenticação**: Autenticação de usuários com JWT para acesso a áreas protegidas.
 - **Paginação de Listagem**: Endpoint seguro para listagem de dados acessível apenas após login.
-
-### Front-end
-
-- **Página de Cadastro**: Interface para o registro de novos usuários.
-- **Página de Login**: Interface para autenticação de usuários existentes.
-- **Página de Listagem**: Área privada com dados acessível apenas para usuários autenticados.
 
 ## Instalação e Uso
 
